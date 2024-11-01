@@ -1,0 +1,43 @@
+.purchase-container {
+    max-width: 100%; /* Full width */
+    padding: 20px; /* Padding around the container */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  .purchase-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Full width for the form */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  .form-group label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels */
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  button {
+    padding: 10px 15px; /* Button padding */
+    background-color: #9affc6; /* Button color matching theme */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded button corners */
+    color: black; /* Button text color */
+    cursor: pointer; /* Pointer on hover */
+  }
+  
+  button:hover {
+    background-color: #76e0a1; /* Darker shade on hover */
+  }
+  

@@ -1,13 +1,21 @@
 
 import './App.css';
-import Home from './Pages/Home';
+// import MedicineHome from './VHC/MedicineHome';
+// import OpHome from './Op/OpHome';
+import MedHome from './Medicine/MedHome';
+// import HomeCareHome from './HomeCare/HomeCareHome';
+// import Home from './Pages/Home';
 // import Login from './Pages/Login';
 
 function App() {
   return (
     <div className="App">  
       {/* <Login/> */}
-    <Home/>
+    {/* <Home/> */}
+    {/* <HomeCareHome/> */}
+    {/* <OpHome/> */}
+    {/* <MedicineHome/> */}
+    <MedHome/>
     </div>
   );
 }
